@@ -11,6 +11,7 @@
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="immersive.css">
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -21,42 +22,103 @@
   <a class="button button-small" href="https://jzinkz.glossgenius.com/booking-flow">Book with JZ <span aria-hidden="true">↗</span></a>
 </header>
 <main id="main">
-  <section class="hero" id="top" aria-labelledby="hero-title">
-    <div class="hero-copy">
-      <p class="eyebrow">The living sketchbook · JZ INKZ</p>
-      <h1 id="hero-title">Soft soul.<br><em>Bold ink.</em></h1>
-      <p class="hero-description">For the flowers. <br>The little details. <br>And your beautifully dark side.</p>
-      <a class="button" href="https://jzinkz.glossgenius.com/booking-flow">Let’s make it yours <span aria-hidden="true">↗</span></a>
-      <a class="text-link hero-explore" href="#work">Wander through the ink <span aria-hidden="true">↓</span></a>
-      <span class="hero-index" aria-hidden="true">01 / A little introduction</span>
+  <section class="awakening" id="top" aria-labelledby="hero-title">
+    <div class="opening-rule"><span>JZ INKZ · THE LIVING SKETCHBOOK</span><span>TATTOOS / ART / A LITTLE MAGIC</span></div>
+    <div class="opening-stage">
+      <div class="opening-flower opening-flower-left" aria-hidden="true"><img src="assets/garden.svg" width="600" height="850" alt=""></div>
+      <div class="opening-flower opening-flower-right" aria-hidden="true"><img src="assets/lily.svg" width="600" height="800" alt=""></div>
+      <div class="opening-center"><p class="eyebrow">Soft soul. Bold ink.</p>
+      <h1 id="hero-title" class="sr-only">JZ Inkz — Soft soul. Bold ink.</h1>
+      <svg class="signature" viewBox="0 0 1000 430" fill="none" aria-hidden="true">
+        <g class="signature-strokes" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path pathLength="1" stroke-width="5" d="M104 123C146 64 294 30 317 83C335 124 237 181 187 170C148 160 223 75 267 98"/>
+        <path pathLength="1" stroke-width="15" d="M284 96C268 174 251 265 204 294C172 315 142 289 148 264"/>
+        <path pathLength="1" stroke-width="3" d="M148 264C160 212 212 193 244 210C275 225 231 284 170 309C81 345 30 317 70 286"/>
+        <path pathLength="1" stroke-width="5" d="M322 141C357 88 431 93 477 106Q496 111 513 94C486 145 365 231 312 272C368 241 453 304 501 244"/>
+        <path pathLength="1" stroke-width="13" d="M496 115L339 257"/>
+        <path pathLength="1" stroke-width="4" d="M370 195Q419 190 463 188M523 260C558 225 570 177 596 145C617 119 654 95 661 113C671 138 603 187 581 209M626 153C611 204 592 252 569 276"/>
+        <path pathLength="1" stroke-width="11" d="M625 156L579 263"/>
+        <path pathLength="1" stroke-width="5" d="M568 276Q594 273 618 238L636 206Q621 245 621 268C649 228 670 205 683 213C696 222 660 261 675 269Q690 274 709 247C741 202 780 125 765 125C744 125 714 212 701 273M710 246C747 205 771 205 764 224C758 240 723 237 723 248Q727 284 759 262"/>
+        <path pathLength="1" stroke-width="5" d="M770 224Q793 203 821 217L836 213Q807 246 781 270C806 255 831 283 853 256"/>
+        <path pathLength="1" stroke-width="3" d="M202 344C422 272 717 375 893 307C953 284 917 250 877 274M337 336C497 315 714 368 802 348"/>
+        </g><g class="ink-drops" fill="currentColor"><path pathLength="1" d="M203 293Q198 316 200 332Q209 344 211 331Q211 318 203 293Z"/><path pathLength="1" d="M781 269Q777 282 780 293Q786 297 786 290Z"/></g>
+      </svg>
+      <p class="opening-tagline">A little romantic.<br><em>A little beautifully dark.</em></p>
+      <a class="button button-dark" href="https://jzinkz.glossgenius.com/booking-flow">Make something forever <span aria-hidden="true">↗</span></a>
+      <div class="opening-controls"><a href="#drawing">Enter the sketchbook ↓</a><button type="button" id="replay-ink">Replay the ink ↻</button></div>
+      </div>
+      <span class="margin-note">made to become<br><em>part of you.</em></span><span class="tiny-star" aria-hidden="true">✧</span>
     </div>
-    <div class="hero-art" aria-label="JZ's portrait surrounded by illustrated lilies">
-      <span class="art-caption handwritten">the artist, in her element</span>
-      <div class="halo" aria-hidden="true"></div>
-      <img class="hero-flower flower-back" src="assets/lily.svg" alt="" width="600" height="800" aria-hidden="true">
-      <img class="hero-portrait" src="media/portraits/jz-cauldron-transparent.png" alt="JZ holding a cauldron in purple light" width="722" height="1316" fetchpriority="high">
-      <img class="hero-flower flower-front" src="assets/lily.svg" alt="" width="600" height="800" aria-hidden="true">
-      <svg class="ink-trail" viewBox="0 0 500 760" fill="none" aria-hidden="true"><path pathLength="1" d="M410 100C530 350 90 120 180 410S470 600 240 730"/><path pathLength="1" d="M420 105C535 355 95 126 186 410S475 605 246 733"/></svg>
-      <span class="art-star star-one" aria-hidden="true">✧</span><span class="art-star star-two" aria-hidden="true">✦</span>
-      <span class="portrait-note handwritten">a little soft.<br>a little wild.</span>
+    <div class="opening-bottom"><span>01 — INK AWAKENING</span><span>SCROLL SLOWLY. STAY A LITTLE.</span><span aria-hidden="true">↓</span></div>
+  </section>
+  <section class="living-drawing" id="drawing" aria-labelledby="drawing-title">
+    <div class="drawing-copy"><p class="eyebrow">02 / From a line to a feeling</p><h2 id="drawing-title">Some things<br>start with<br><em>a little ink.</em></h2><p>A serpent. A sword. Something soft in between.</p><p class="drawing-note">A study from JZ’s own sketchbook.</p><a class="text-link" href="media/cutout-candidates/snake-sword-floral-back.jpeg">See the original tattoo ↗</a></div>
+    <div class="drawing-art"><svg class="snake-drawing" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="190 380 1173 1156" fill="none" stroke="#442c38" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">
+<title>Source-study of JZ’s faded snake, sword and floral drawing</title>
+<desc>Hand-traced visible contours from faded-back-linework.jpeg. Cropped edges and fading are intentional. This is a decorative source study, not a new tattoo design.</desc>
+<g class="source-lines">
+<path pathLength="1" d="M584 446C548 482 508 516 490 542C465 574 458 604 460 637L453 671L463 699L455 737Q467 772 503 761C548 753 587 718 604 680C622 641 648 615 656 572Q662 524 632 505L601 476"/>
+<path pathLength="1" d="M554 647Q539 623 561 609Q582 599 586 618Q586 635 563 640L554 647M557 629Q550 618 568 612Q580 613 574 624Z"/>
+<path pathLength="1" d="M507 756Q529 769 526 793Q537 846 608 805M520 784Q505 853 565 859"/>
+<path pathLength="1" d="M489 541Q448 509 469 467M488 545Q447 568 412 582Q371 598 354 574L347 553Q321 549 328 531L338 498L350 483M252 422Q260 436 275 443L280 467Q310 493 370 480Q419 476 449 452"/>
+<path pathLength="1" d="M650 556Q692 541 726 548M737 562Q720 570 721 554Q724 527 749 505Q766 494 779 507L747 562Q747 573 737 562Z"/>
+<path pathLength="1" d="M779 507Q902 530 1002 602L1050 634M747 565Q852 657 960 692L1005 706M804 517L809 571L776 590M862 538L858 604L821 612M916 560L906 634L862 640M962 581L946 660L910 665M998 606L982 678L955 691"/>
+<path pathLength="1" d="M811 618Q772 676 782 766Q784 852 855 895M1188 847Q1108 915 908 913"/>
+<path pathLength="1" d="M827 634L825 649Q843 665 825 678Q810 695 794 685M854 654Q875 676 854 689L841 715Q829 739 787 704M899 674L878 717Q865 737 909 741Q972 761 994 721M924 694Q900 715 920 721L971 729"/>
+<path pathLength="1" d="M789 773Q810 777 828 766M788 810Q811 808 831 786M804 835Q847 831 850 807M830 864Q899 861 884 827M847 877Q869 883 857 897M871 808Q919 813 941 798Q915 761 864 753L830 770L852 792M976 828Q1006 855 986 875Q1007 895 1004 909M1032 819Q1056 845 1044 875Q1066 889 1064 902M1084 786Q1116 827 1097 858L1132 889"/>
+<path pathLength="1" d="M1005 692Q1054 735 1151 727Q1082 746 1026 800L942 882Q891 930 872 983Q839 974 774 1015Q814 975 788 936Q895 900 955 820Q1017 748 1005 692Z"/>
+<path pathLength="1" d="M1016 757Q973 815 909 875L816 946Q839 969 807 991M1096 760Q1118 785 1116 811L1352 926M1117 792Q1182 756 1240 799L1355 853L1347 889L1352 926M1139 821Q1140 848 1162 860"/>
+<path pathLength="1" d="M917 913Q882 974 924 994M1085 912Q1050 1002 1098 1036M1091 1034Q1033 985 954 995Q872 991 823 1043Q778 1085 765 1149Q754 1210 786 1238Q818 1256 855 1260Q911 1277 953 1227L1076 1091M787 941Q752 977 758 1023Q753 1067 738 1095Q718 1140 764 1165"/>
+<path pathLength="1" d="M1076 1091Q1012 1190 942 1237Q913 1276 941 1293Q969 1304 997 1297Q1092 1320 1145 1260Q1192 1208 1205 1170M1137 1094Q1175 1179 1241 1171Q1282 1176 1308 1140M1148 1013Q1245 948 1300 982Q1337 1002 1330 1033M1205 1170Q1202 1183 1222 1189Q1287 1181 1305 1158"/>
+<path pathLength="1" d="M1139 995L1157 964L1145 1005L1173 981L1153 1014L1194 995L1157 1020M1153 1030L1193 1028L1156 1040L1202 1048L1158 1050L1191 1074L1148 1060L1178 1090L1141 1070M1131 1087L1138 1137L1122 1100L1113 1150L1109 1100L1090 1140L1098 1090L1070 1130L1081 1089L1053 1110L1064 1080M1051 1067L991 1075L1059 1054L1024 1041L1061 1045L1031 1023"/>
+<path pathLength="1" d="M1354 930Q1322 938 1327 973Q1308 1010 1311 1036Q1301 1092 1308 1140Q1307 1204 1363 1245M1344 978Q1334 1011 1353 1033L1343 1061Q1361 1089 1345 1124M1320 1170L1363 1150M1222 1189Q1151 1266 1151 1310L1157 1335M1305 1172Q1291 1278 1363 1340M1157 1335Q1073 1392 1075 1486L1062 1536M1363 1380Q1294 1310 1293 1269"/>
+</g></svg>
+<svg class="living-flower" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 850"><g fill="none" stroke="#673f51" stroke-width="1.6" stroke-linecap="round"><path pathLength="1" d="M295 850C285 670 452 448 283 240M331 658Q138 561 172 371M321 721Q446 635 492 442M276 779Q131 744 92 595"/><g fill="#e7a5bd" class="bloom-fill" fill-opacity=".45"><path pathLength="1" d="M283 240C243 164 132 106 124 145Q79 185 167 224Q95 231 127 300Q155 346 212 284Q194 374 257 363Q297 357 283 240Z"/><path pathLength="1" d="M283 240C319 147 405 128 408 177Q463 184 389 237Q465 263 427 314Q401 347 350 286Q349 369 302 349Q273 331 283 240Z"/><path pathLength="1" d="M172 371Q103 307 92 357Q41 364 112 407Q67 456 122 472Q172 465 172 411Q218 476 241 433Q245 398 195 390Q252 347 213 322Q177 323 172 371Z"/><path pathLength="1" d="M492 442Q442 369 416 407Q385 444 455 469Q404 502 447 531Q484 542 495 489Q550 545 569 499Q575 464 519 466Q569 411 526 402Q497 407 492 442Z"/><path pathLength="1" d="M92 595Q43 548 28 590Q8 622 61 632Q32 678 72 688Q101 683 98 648Q153 688 164 643Q167 622 120 620Q166 566 125 566Q103 570 92 595Z"/></g><path pathLength="1" d="M281 242L233 209M281 242L224 245M281 242L243 299M281 242L322 299M281 242L356 255M281 242L346 204M172 391L141 369M172 391L155 432M172 391L210 414M172 391L199 357M493 466L453 442M493 466L467 501M493 466L540 493M493 466L520 435"/><g fill="#52604c" fill-opacity=".15"><path pathLength="1" d="M308 565Q261 472 223 510Q221 552 308 565ZM321 718Q333 598 385 622Q405 667 321 718ZM230 677Q173 588 148 639Q144 676 230 677ZM399 605Q488 574 462 549Q423 537 399 605Z"/></g></g></svg>
+<span class="drawing-caption">ink becomes a garden</span></div>
+  </section>
+  <section class="night-garden" id="night" aria-labelledby="night-title">
+    <div class="night-sky" aria-hidden="true"><span class="moon"></span><span class="constellation">✧ <i>·</i> ✦ <i>·</i> ✧</span><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span></div>
+    <img class="body-cutout cutout-lilies" src="media/cutout-candidates/lilies-arm.jpeg" alt="" width="1320" height="1536" loading="lazy" aria-hidden="true">
+    <img class="body-cutout cutout-centipede" src="media/cutout-candidates/centipede-arm.jpeg" alt="" width="1536" height="1536" loading="lazy" aria-hidden="true">
+    <img class="body-cutout cutout-stars" src="media/cutout-candidates/stars-foot.jpeg" alt="" width="1285" height="1536" loading="lazy" aria-hidden="true">
+    <img class="body-cutout cutout-neck" src="media/cutout-candidates/branching-neck-shoulder.jpeg" alt="" width="1228" height="1536" loading="lazy" aria-hidden="true">
+    <div class="night-copy"><p class="eyebrow">03 / The night garden</p><h2 id="night-title">Flowers have<br>a <em>dark side,</em><br>too.</h2><p>For your softer side.<br>And everything underneath.</p><a class="text-link" href="#photobook">Turn the page <span aria-hidden="true">↓</span></a></div>
+    <div class="night-bottom"><span>REAL SKIN. REAL STORIES.</span><span>✦</span><span>INK BY JZ</span></div>
+  </section>
+  <section class="photobook" id="photobook" aria-labelledby="photobook-title">
+    <div class="photobook-stage">
+      <div class="photobook-copy"><p class="eyebrow">04 / Collected on skin</p><h2 id="photobook-title">A few pages<br>from <em>forever.</em></h2><p>Every detail has a place.</p><a class="text-link" href="#work">Explore every piece ↗</a><span class="book-progress" aria-hidden="true"><i></i></span></div>
+      <div class="photo-stack">
+      <figure class="book-photo"><a href="media/portfolio/dense-floral-sleeve.jpeg"><img src="media/portfolio/dense-floral-sleeve.jpeg" width="1408" height="1760" loading="lazy" alt="Black and grey roses and leaves covering a shoulder and upper arm"></a><figcaption><span>01 / A garden, forever</span><i>Botanical studies</i></figcaption></figure>
+      <figure class="book-photo"><a href="media/portfolio/barbed-wire-rose.jpeg"><img src="media/portfolio/barbed-wire-rose.jpeg" width="1408" height="1760" loading="lazy" alt="Red rose with black barbed wire on an arm"></a><figcaption><span>02 / Soft, with thorns</span><i>Fine details</i></figcaption></figure>
+      <figure class="book-photo"><a href="media/cutout-candidates/snake-sword-floral-back.jpeg"><img src="media/cutout-candidates/snake-sword-floral-back.jpeg" width="1518" height="1536" loading="lazy" alt="JZ’s snake winding around a sword and flowers on a back"></a><figcaption><span>03 / Beauty & bite</span><i>The original drawing, on skin</i></figcaption></figure>
+      </div>
+      <span class="book-edge-note" aria-hidden="true">a collection of little forevers</span>
     </div>
   </section>
-  <div class="chapter-strip" aria-hidden="true"><span>FLORALS</span><i>✳</i><span>FINE DETAILS</span><i>✳</i><span>DARK LITTLE DAYDREAMS</span><i>✳</i><span>YOUR NEXT TATTOO</span></div>
 
   <section class="work section-paper" id="work" aria-labelledby="work-title">
     <div class="work-intro">
-      <div class="section-heading"><p class="eyebrow">02 / Ink, in real life</p><h2 id="work-title">Not just on paper.<br><em>On you.</em></h2><p>Delicate lines to darker things. Take a closer look at the details.</p></div>
+      <div class="section-heading"><p class="eyebrow">The full collection / Ink, in real life</p><h2 id="work-title">Not just on paper.<br><em>On you.</em></h2><p>Delicate lines to darker things. Take a closer look at the details.</p></div>
       <span class="handwritten edge-note">come a little closer ↙</span>
     </div>
     <div class="gallery-toolbar"><div class="filters" role="group" aria-label="Filter tattoo portfolio"><button type="button" aria-pressed="true" data-filter="all">Everything</button><button type="button" aria-pressed="false" data-filter="floral">Botanical</button><button type="button" aria-pressed="false" data-filter="dark">Dark side</button><button type="button" aria-pressed="false" data-filter="detail">Little details</button></div><p id="gallery-count" aria-live="polite"></p></div>
-    <div class="gallery" id="gallery"></div>
+    <div class="gallery" id="gallery">
+<figure class="tattoo-card"><a href="media/portfolio/dense-floral-sleeve.jpeg"><img src="media/portfolio/dense-floral-sleeve.jpeg" loading="lazy" width="640" height="800" alt="Black and grey floral sleeve"></a><figcaption>A garden, forever</figcaption></figure>
+<figure class="tattoo-card"><a href="media/portfolio/barbed-wire-rose.jpeg"><img src="media/portfolio/barbed-wire-rose.jpeg" loading="lazy" width="640" height="800" alt="Red rose with barbed wire"></a><figcaption>Soft, with thorns</figcaption></figure>
+<figure class="tattoo-card"><a href="media/portfolio/centipede.jpeg"><img src="media/portfolio/centipede.jpeg" loading="lazy" width="640" height="800" alt="Black centipede tattoo"></a><figcaption>Beautifully unsettling</figcaption></figure>
+<figure class="tattoo-card"><a href="media/portfolio/fine-line-flower.jpeg"><img src="media/portfolio/fine-line-flower.jpeg" loading="lazy" width="640" height="800" alt="Fine line flower tattoo"></a><figcaption>The little things</figcaption></figure>
+<figure class="tattoo-card"><a href="media/portfolio/floral-mandala-shoulder.jpeg"><img src="media/portfolio/floral-mandala-shoulder.jpeg" loading="lazy" width="640" height="800" alt="Floral shoulder tattoo"></a><figcaption>Petal by petal</figcaption></figure>
+<figure class="tattoo-card"><a href="media/portfolio/anatomical-heart-script.jpeg"><img src="media/portfolio/anatomical-heart-script.jpeg" loading="lazy" width="640" height="800" alt="Anatomical heart and script tattoo"></a><figcaption>Wear your heart</figcaption></figure>
+<figure class="tattoo-card"><a href="media/portfolio/roses-cross-butterflies.jpeg"><img src="media/portfolio/roses-cross-butterflies.jpeg" loading="lazy" width="640" height="800" alt="Roses, cross and butterflies on an arm"></a><figcaption>Something to believe in</figcaption></figure>
+</div>
     <noscript><p>Explore the full photographic portfolio in the <a href="docs/asset-index.md">asset index</a>, or <a href="https://jzinkz.glossgenius.com/">visit JZ Inkz</a>.</p></noscript>
     <div class="gallery-end"><span class="handwritten">your next favorite could be yours.</span><a class="text-link" href="#sessions">Find your session <span aria-hidden="true">↗</span></a></div>
   </section>
 
   <section class="artist section-paper" id="artist" aria-labelledby="artist-title">
     <div class="artist-art"><img src="media/portraits/jz-cauldron-transparent.png" alt="JZ holding a cauldron in purple light" width="722" height="1316" loading="lazy"><span class="photo-label handwritten">hi, I’m JZ ♡</span><img class="artist-flower" src="assets/lily.svg" alt="" width="600" height="800" loading="lazy" aria-hidden="true"></div>
-    <div class="artist-copy"><p class="eyebrow">03 / The person behind the ink</p><h2 id="artist-title">Pretty pink.<br><em>Unexpected edge.</em></h2><p>Welcome to JZ’s little corner of the art world. A place for flowers, intricate details, and the things that are a little harder to put into words.</p><p>Bring a clear idea or the beginning of one. A consultation is where your next piece starts taking shape.</p><a class="text-link" href="https://jzinkz.glossgenius.com/services">Start with a consultation <span aria-hidden="true">↗</span></a>
+    <div class="artist-copy"><p class="eyebrow">05 / The person behind the ink</p><h2 id="artist-title">Pretty pink.<br><em>Unexpected edge.</em></h2><p>Welcome to JZ’s little corner of the art world. A place for flowers, intricate details, and the things that are a little harder to put into words.</p><p>Bring a clear idea or the beginning of one. A consultation is where your next piece starts taking shape.</p><a class="text-link" href="https://jzinkz.glossgenius.com/services">Start with a consultation <span aria-hidden="true">↗</span></a>
       <details class="joke-menu"><summary><span class="handwritten">the not-so-serious menu</span><span class="plus" aria-hidden="true">+</span></summary><div class="joke-content"><p class="eyebrow">From JZ’s funny post</p><h3>“Services I offer<br>but no one books”</h3><p class="joke-disclaimer">Just jokes. None of these are real or bookable services—including the “prices.” Tattoo bookings only. No stalking, property damage, or therapy offered.</p><ol><li><span>“Stalking someone on my phone who has you blocked on yours”</span><b>$20</b></li><li><span>“Telling you we’re almost done when we’re not”</span><b>FREE</b></li><li><span>“Let you vent like I’m your therapist”</span><b>$14/hr</b></li><li><span>“Slash 3 of your ex’s tires”</span><b>$10/tire</b></li><li><span>“Breakdance for you”</span><b>fiddy dolla</b></li></ol><p class="handwritten">the tattoos are serious. the menu is not. ♡</p></div></details>
     </div>
   </section>
@@ -64,13 +126,13 @@
   <section class="interlude" aria-label="Art with a softer side"><div class="interlude-line"></div><p>For your soft side.<br><em>And everything underneath.</em></p><span aria-hidden="true">✧</span></section>
 
   <section class="sessions section-paper" id="sessions" aria-labelledby="sessions-title">
-    <div class="section-heading"><p class="eyebrow">04 / Make a little room for ink</p><h2 id="sessions-title">Your idea.<br><em>Let’s give it a place.</em></h2><p>No need to have it all figured out. Start with the session that feels right.</p></div>
+    <div class="section-heading"><p class="eyebrow">Your next chapter / Make a little room for ink</p><h2 id="sessions-title">Your idea.<br><em>Let’s give it a place.</em></h2><p>No need to have it all figured out. Start with the session that feels right.</p></div>
     <div class="session-finder"><p class="eyebrow" id="finder-label">What are you thinking?</p><div class="finder-options" role="group" aria-labelledby="finder-label"><button type="button" data-session="consult" aria-pressed="true">I’m still dreaming</button><button type="button" data-session="small" aria-pressed="false">Something small</button><button type="button" data-session="half" aria-pressed="false">A bigger idea</button><button type="button" data-session="day" aria-pressed="false">Go all in</button></div><div class="finder-result" aria-live="polite"><div><span class="handwritten" id="session-note">a good place to begin</span><h3 id="session-name">Consultation</h3><p id="session-description">Talk through your idea and the design direction with JZ.</p></div><div class="session-action"><p id="session-price">Free <span>· 60 minutes</span></p><a class="button button-dark" id="session-link" href="https://jzinkz.glossgenius.com/services">Choose on GlossGenius <span aria-hidden="true">↗</span></a></div></div><p class="finder-footnote">This helps you choose; it doesn’t reserve a session. Select your service and artist on GlossGenius.</p></div>
     <div class="service-list"><div><h3>Flash</h3><p>For flash event bookings.</p><span>$50 · 30 minutes</span></div><div><h3>Returning for more?</h3><p>Second sessions and other options are listed on the booking page.</p><a class="text-link" href="https://jzinkz.glossgenius.com/services">See every service ↗</a></div><div><h3>The little details</h3><p>Prices and availability can change. Check the current menu and policies before confirming.</p><a class="text-link" href="https://jzinkz.glossgenius.com/about">Booking policies ↗</a></div></div>
     <p class="source-note">Session details checked against <a href="https://jzinkz.glossgenius.com/services">JZ’s GlossGenius menu</a> on October 13, 2026.</p>
   </section>
 
-  <section class="booking" id="book" aria-labelledby="booking-title"><img class="booking-flower" src="assets/lily.svg" alt="" width="600" height="800" loading="lazy" aria-hidden="true"><div><p class="eyebrow">05 / The next page is yours</p><h2 id="booking-title">Some things<br>are worth <em>keeping.</em></h2><p>Let’s start with your next tattoo.</p><a class="button" href="https://jzinkz.glossgenius.com/booking-flow">Book with JZ <span aria-hidden="true">↗</span></a><span class="booking-note">Availability, deposits & confirmation through GlossGenius.</span></div></section>
+  <section class="booking" id="book" aria-labelledby="booking-title"><img class="booking-flower" src="assets/lily.svg" alt="" width="600" height="800" loading="lazy" aria-hidden="true"><div><p class="eyebrow">The next page is yours</p><h2 id="booking-title">Some things<br>are worth <em>keeping.</em></h2><p>Let’s start with your next tattoo.</p><a class="button" href="https://jzinkz.glossgenius.com/booking-flow">Book with JZ <span aria-hidden="true">↗</span></a><span class="booking-note">Availability, deposits & confirmation through GlossGenius.</span></div></section>
 </main>
 <footer><a class="wordmark" href="#top">JZ<span>INKZ</span><i aria-hidden="true">✳</i></a><p>Tattoos with a little soul.</p><div><a href="https://jzinkz.glossgenius.com/">Booking & contact ↗</a><button type="button" id="motion-toggle" aria-pressed="false">Pause decorative motion</button><a href="#top">Back to the beginning ↑</a></div><small>© <span id="year">2026</span> JZ INKZ · Art & photography belong to their respective owners.</small></footer>
 <a class="mobile-book" href="https://jzinkz.glossgenius.com/booking-flow">Your next tattoo starts here <span>Book ↗</span></a>

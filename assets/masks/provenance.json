@@ -1,0 +1,42 @@
+[
+  {
+    "source": "media/cutout-candidates/centipede-arm.jpeg",
+    "sha256": "50fc95a5583d9f855f9d2eb1928297cc41e5dbf7e1f25b8822d653014410707b",
+    "mask": "assets/masks/centipede-arm.svg",
+    "width": 1536,
+    "height": 1536,
+    "method": "border-connected near-white silhouette; unchanged source JPEG rendered beneath SVG alpha mask"
+  },
+  {
+    "source": "media/cutout-candidates/lilies-arm.jpeg",
+    "sha256": "db16ecbab18fa2c3cd5fa734e83c07fdd49e803aaa4513ac858fed2746131569",
+    "mask": "assets/masks/lilies-arm.svg",
+    "width": 1320,
+    "height": 1536,
+    "method": "border-connected near-white silhouette; unchanged source JPEG rendered beneath SVG alpha mask"
+  },
+  {
+    "source": "media/cutout-candidates/stars-foot.jpeg",
+    "sha256": "d1d904da6bf1bce59e58db732f2e3a91c935302664b1432ca4a264a8e1369271",
+    "mask": "assets/masks/stars-foot.svg",
+    "width": 1285,
+    "height": 1536,
+    "method": "border-connected near-white silhouette; unchanged source JPEG rendered beneath SVG alpha mask"
+  },
+  {
+    "source": "media/cutout-candidates/branching-neck-shoulder.jpeg",
+    "sha256": "4c2f07c4c01d73a93eac10ca9db479675fd32f9bcb41a9deaa48d7614c6b707c",
+    "mask": "assets/masks/branching-neck-shoulder.svg",
+    "width": 1228,
+    "height": 1536,
+    "method": "border-connected near-white silhouette; unchanged source JPEG rendered beneath SVG alpha mask"
+  },
+  {
+    "source": "media/cutout-candidates/snake-sword-floral-back.jpeg",
+    "sha256": "54a3cdf1b61db4d550ac065af47dc8ace3aa366fa3017dfa79ef2a4e67d92bff",
+    "mask": "assets/masks/snake-sword-floral-back.svg",
+    "width": 1518,
+    "height": 1536,
+    "method": "border-connected near-white silhouette; unchanged source JPEG rendered beneath SVG alpha mask"
+  }
+]

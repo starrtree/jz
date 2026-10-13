@@ -1,6 +1,11 @@
 # JZ INKZ — Living Sketchbook
 
-Organized authentic media and a source-grounded creative handoff for JZ's website.
+A buildless, responsive tattoo portfolio in warm paper, blush and plum. Open `index.html` in a modern browser, or serve this directory with any static web server. No installation or build step is required.
+
+The first implementation includes a layered portrait/botanical hero, filterable tattoo gallery with full-photo dialog, session finder, direct GlossGenius booking links, a clearly fictional joke-menu foldout, and reduced-motion controls.
+
+- [Website entry point](index.html)
+- [Implementation and verification status](docs/implementation-status.md)
 
 - [Browse the organized photos](media/)
 - [Media manifest and original filenames](media/manifest.json)
@@ -9,6 +14,6 @@ Organized authentic media and a source-grounded creative handoff for JZ's websit
 
 52 supplied media uploads are represented by 44 byte-unique originals. Duplicates are mapped, not discarded from the upload source. Artist portraits and tattoo portfolio are separate. Only one original contains genuine alpha transparency; white-background JPEGs are labelled cutout candidates.
 
-This is a media and design checkpoint, **not a deployed website**. No generated replacement tattoos or portraits, production image derivatives, or installed effect dependencies are included. The next implementation step is the layered hero and living-paper gallery described in the brief.
+This is an implementation checkpoint, **not a deployed website**. No generated replacement tattoos or portraits are included. The botanical decoration is an original SVG; the real photos remain intact. Browser visual QA and client approval are still required before launch.
 
 Photography and tattoo artwork remain the property of their respective owners; no open-source license is granted for the media. Confirm client and photographer usage/credits before website launch.

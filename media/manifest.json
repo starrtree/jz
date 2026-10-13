@@ -1,0 +1,586 @@
+{
+  "uploadedCount": 52,
+  "uniqueCount": 44,
+  "assets": [
+    {
+      "id": "jz-cauldron-close",
+      "path": "media/portraits/jz-cauldron-close.jpeg",
+      "originalUploads": [
+        "01A30285-6BA9-47DD-80B1-9123C3219462(2).jpeg"
+      ],
+      "sha256": "4d144a19131cd114de061b23fdbfbe1b7b7bdadcd5bc74db069546922197632c",
+      "width": 1136,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "stars-foot",
+      "path": "media/cutout-candidates/stars-foot.jpeg",
+      "originalUploads": [
+        "104C9160-82C2-4E58-8679-0AFF18497C0E.jpeg",
+        "7CB330C0-233F-441F-890C-A931325CD1D3(1).jpeg"
+      ],
+      "sha256": "d1d904da6bf1bce59e58db732f2e3a91c935302664b1432ca4a264a8e1369271",
+      "width": 1285,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "roses-cross-butterflies-arm",
+      "path": "media/cutout-candidates/roses-cross-butterflies-arm.jpeg",
+      "originalUploads": [
+        "2B0382D3-315C-4C66-A7F9-ACB45349E3D7.jpeg"
+      ],
+      "sha256": "e84b7b2364c17b17d2a0b5d06c8fdf22150f450835d0ea9a2b7d8a7562c16e3a",
+      "width": 1229,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "faded-back-linework",
+      "path": "media/cutout-candidates/faded-back-linework.jpeg",
+      "originalUploads": [
+        "2B7CEC34-F20F-4B12-BB13-EAA218B8D121.jpeg"
+      ],
+      "sha256": "c280e004ff1041d8145d1ddfc426245ef2de2b6b6d46b3f211a9fad43ef694ad",
+      "width": 1363,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": "Preserve intentional fade; do not sharpen or reconstruct linework."
+    },
+    {
+      "id": "jz-candle",
+      "path": "media/portraits/jz-candle.jpeg",
+      "originalUploads": [
+        "390ECC3C-E093-457B-8F75-9181FC434D3A(1).jpeg"
+      ],
+      "sha256": "e92898b5abc34b2f7d09e3f264ed8247517d57cb29f694c7c597de6c176c60b4",
+      "width": 1229,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "jz-golden-hour",
+      "path": "media/portraits/jz-golden-hour.jpeg",
+      "originalUploads": [
+        "49E819DD-8B6A-4E62-AFFD-63D1E37400D2(1).jpeg",
+        "8AFDD68D-7428-4D98-ACDE-86F31F02E22F(1).jpeg"
+      ],
+      "sha256": "57bffcda44adeac9d3e1f4b0aec1fe6566d68f9a502897197d2d709aab68ec2f",
+      "width": 1536,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "jz-mosaic-front",
+      "path": "media/portraits/jz-mosaic-front.jpeg",
+      "originalUploads": [
+        "4ECCAE41-76BD-434B-A07B-6D4E6BBAD5E9(1).jpeg",
+        "CC7C8CCE-B234-4E4C-954E-3094D428796A(1).jpeg"
+      ],
+      "sha256": "04aa30a4f448ee1dd4ad3cec6df032ae4d31d33397e921859535f6f2cb04f74b",
+      "width": 1230,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "branching-neck-shoulder",
+      "path": "media/cutout-candidates/branching-neck-shoulder.jpeg",
+      "originalUploads": [
+        "5155EB0F-A4E5-44F4-9947-8BB3F360D9AE.jpeg"
+      ],
+      "sha256": "4c2f07c4c01d73a93eac10ca9db479675fd32f9bcb41a9deaa48d7614c6b707c",
+      "width": 1228,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "jz-black-outfit-seated",
+      "path": "media/portraits/jz-black-outfit-seated.jpeg",
+      "originalUploads": [
+        "56C8323F-FD0D-42A1-9948-1CF76958148E(1).jpeg"
+      ],
+      "sha256": "3e735f86f75ad2abd7f2c0c2ca72c21ca274664ffbffcf7c1874b5cf8020dce0",
+      "width": 1009,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "jz-cauldron-wide",
+      "path": "media/portraits/jz-cauldron-wide.jpeg",
+      "originalUploads": [
+        "60FE64D7-BFF8-4A31-B0F1-D7CA9CDA88BE(1).jpeg"
+      ],
+      "sha256": "ca93ea25ad445783069c8efef064ca6f433b91c3101ba1d6fa13e198fed845a2",
+      "width": 1536,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "jz-pink-outfit",
+      "path": "media/portraits/jz-pink-outfit.jpeg",
+      "originalUploads": [
+        "77C12084-FE2C-4F7B-ACD0-F1F3A873D928(1).jpeg"
+      ],
+      "sha256": "ef732463552a991f5b850911b0075a0b4a1d334324553e8b9543428a0fa7379b",
+      "width": 1229,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "ghostface-arm",
+      "path": "media/cutout-candidates/ghostface-arm.jpeg",
+      "originalUploads": [
+        "7BE4078A-42ED-4DFC-87F5-C3B28EDEE241.jpeg"
+      ],
+      "sha256": "a32a2076ab819977f12bc5350b93f065f70da5bab761dbcaadab18ee6cdd0b86",
+      "width": 1365,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "lilies-arm",
+      "path": "media/cutout-candidates/lilies-arm.jpeg",
+      "originalUploads": [
+        "7D32176E-4D85-472B-BC23-ACB7921F10BB.jpeg",
+        "FF2D5C4A-1C7C-475D-8536-7759664211C8(1).jpeg"
+      ],
+      "sha256": "db16ecbab18fa2c3cd5fa734e83c07fdd49e803aaa4513ac858fed2746131569",
+      "width": 1320,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "red-ink-hand",
+      "path": "media/cutout-candidates/red-ink-hand.jpeg",
+      "originalUploads": [
+        "997C49D8-9315-42B1-9F53-3256D03F9EA9.jpeg"
+      ],
+      "sha256": "dfaf2d5941a2e185edd7517b4f678f95fcda36f1a4fbd24a632e833c802b2fbc",
+      "width": 1152,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "jz-balcony",
+      "path": "media/portraits/jz-balcony.jpeg",
+      "originalUploads": [
+        "9CB9FC41-DD62-4E1A-8EC6-4572AB362EA0(1).jpeg",
+        "FDDD0350-88FF-4EC8-9E2A-D66B73045A0D(1).jpeg"
+      ],
+      "sha256": "a8472afaad2a7a8fc443ee6c6207e9f1e4fb146ea55c176ec1b237e60419652f",
+      "width": 1396,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "star-owl-floral-arm",
+      "path": "media/cutout-candidates/star-owl-floral-arm.jpeg",
+      "originalUploads": [
+        "ABA02B4D-0C08-4E80-9C09-3C814C9B364A.jpeg"
+      ],
+      "sha256": "41a6b83a8a327994f54ab7aaa5866dae6ec58038771ac50c14a4200b13a7804a",
+      "width": 1189,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "snake-sword-floral-back",
+      "path": "media/cutout-candidates/snake-sword-floral-back.jpeg",
+      "originalUploads": [
+        "AF1865BE-9A5D-4605-90FF-877E9C746D24(1).jpeg"
+      ],
+      "sha256": "54a3cdf1b61db4d550ac065af47dc8ace3aa366fa3017dfa79ef2a4e67d92bff",
+      "width": 1518,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "paired-thigh-tattoos",
+      "path": "media/cutout-candidates/paired-thigh-tattoos.jpeg",
+      "originalUploads": [
+        "D51A76F2-49B4-43BD-8DEB-C04439C772E6.jpeg"
+      ],
+      "sha256": "9023413dbdba1b737af155a991ab8769ebbda5c89fe49ecc3d2f0479a52f7f60",
+      "width": 1281,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "centipede-arm",
+      "path": "media/cutout-candidates/centipede-arm.jpeg",
+      "originalUploads": [
+        "D72CC45E-3DF3-4454-83B8-4C651C89917C.jpeg"
+      ],
+      "sha256": "50fc95a5583d9f855f9d2eb1928297cc41e5dbf7e1f25b8822d653014410707b",
+      "width": 1536,
+      "height": 1536,
+      "transparent": false,
+      "category": "cutout-candidates",
+      "note": ""
+    },
+    {
+      "id": "jz-black-outfit-standing",
+      "path": "media/portraits/jz-black-outfit-standing.jpeg",
+      "originalUploads": [
+        "F7B4022E-836A-4E1E-A5FB-07CDB4184492(1).jpeg"
+      ],
+      "sha256": "1ab0b3a4788914db29416dde7ac1736fe09df5fe86f9dae791c08969b21f9609",
+      "width": 1228,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": ""
+    },
+    {
+      "id": "floral-mandala-shoulder",
+      "path": "media/portfolio/floral-mandala-shoulder.jpeg",
+      "originalUploads": [
+        "IMG_1332.jpeg"
+      ],
+      "sha256": "8aa26471bfc805b8dcd118b2621d26303e98f05851187fb2e5e0020767895111",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "crowned-bear",
+      "path": "media/portfolio/crowned-bear.jpeg",
+      "originalUploads": [
+        "IMG_1333.jpeg"
+      ],
+      "sha256": "4708b3335c6267faf41daff0399f15976a903ad8714305990f3421eea662893e",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "anatomical-heart-script",
+      "path": "media/portfolio/anatomical-heart-script.jpeg",
+      "originalUploads": [
+        "IMG_1334(1).jpeg"
+      ],
+      "sha256": "9025c29f0a439aee2a1d9ba5ef6ef3731f2ab6943642afebcb45c55646725b34",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "roses-cross-butterflies",
+      "path": "media/portfolio/roses-cross-butterflies.jpeg",
+      "originalUploads": [
+        "IMG_1335(1).jpeg",
+        "IMG_1335.jpeg"
+      ],
+      "sha256": "992b41f9f4caed88599c3a6801fe810ca89ff4cc75e2bb3b2d7e1ee274fbabd0",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "centipede",
+      "path": "media/portfolio/centipede.jpeg",
+      "originalUploads": [
+        "IMG_1336(1).jpeg"
+      ],
+      "sha256": "5c772daf69576d7da55cfc197b2ed23a31603bd706a907089aaa6aa80c8860f0",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "small-red-tattoos",
+      "path": "media/portfolio/small-red-tattoos.jpeg",
+      "originalUploads": [
+        "IMG_1337.jpeg"
+      ],
+      "sha256": "8d4095127bc4f75310a27862888808e061c93d70d000b050757841652f2496ea",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "back-bows",
+      "path": "media/portfolio/back-bows.jpeg",
+      "originalUploads": [
+        "IMG_1338.jpeg"
+      ],
+      "sha256": "1d540ef3befb95f9e4fb807eec981cd691104fa637a13ca6a4038bc044ad1a20",
+      "width": 1125,
+      "height": 1406,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "ornamental-character",
+      "path": "media/portfolio/ornamental-character.jpeg",
+      "originalUploads": [
+        "IMG_1339.jpeg"
+      ],
+      "sha256": "90572d93c21cb99fa7b06b5f1f160fb593f1122b50ea7400353ad2c855792c97",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "floral-mandala-detail",
+      "path": "media/portfolio/floral-mandala-detail.jpeg",
+      "originalUploads": [
+        "IMG_1340.jpeg"
+      ],
+      "sha256": "e2a945df327d22665c167fd72007ef60e5056ecfe82820aedb90719f11c241aa",
+      "width": 1440,
+      "height": 1799,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "ornamental-thigh",
+      "path": "media/portfolio/ornamental-thigh.jpeg",
+      "originalUploads": [
+        "IMG_1341.jpeg"
+      ],
+      "sha256": "308bc1437c6bb94f08ffa9c79a00e72165ec77453f8013a74ff2f00208c31329",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "floral-hip",
+      "path": "media/portfolio/floral-hip.jpeg",
+      "originalUploads": [
+        "IMG_1342.jpeg"
+      ],
+      "sha256": "32517e5e2b5e6544d4fcad006d3bf956aef8dd4cd5b628e8b28b52fd639824e8",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "pixel-cat",
+      "path": "media/portfolio/pixel-cat.jpeg",
+      "originalUploads": [
+        "IMG_1343.jpeg"
+      ],
+      "sha256": "945275539230bba32beeade96b7baf69c6b4b8361b21d09f64657a9ec5a01663",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "333-frame",
+      "path": "media/portfolio/333-frame.jpeg",
+      "originalUploads": [
+        "IMG_1345.jpeg"
+      ],
+      "sha256": "181354eaed3d2326e29b9a8d2c6c259ff21cddd2b8bba43fafd5f8b7b1b37f78",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "fine-line-flower",
+      "path": "media/portfolio/fine-line-flower.jpeg",
+      "originalUploads": [
+        "IMG_1346.jpeg"
+      ],
+      "sha256": "51916d63ce216aa690e5a51490ea491cccfa5f71b039f229de224ed808dd9c9e",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "dense-floral-sleeve",
+      "path": "media/portfolio/dense-floral-sleeve.jpeg",
+      "originalUploads": [
+        "IMG_1347(1).jpeg"
+      ],
+      "sha256": "592f5ee8d8993b1c4a3b41e99550c07872db8e45c941632999d6898fd5886e4b",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "red-black-script",
+      "path": "media/portfolio/red-black-script.jpeg",
+      "originalUploads": [
+        "IMG_1349.jpeg"
+      ],
+      "sha256": "7438ad63c92dd1d54c3257f60b7e579bf36ef7791bf12001892bf85ec4966b3b",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "cross-shoulder",
+      "path": "media/portfolio/cross-shoulder.jpeg",
+      "originalUploads": [
+        "IMG_1352(1).jpeg"
+      ],
+      "sha256": "d1ccaa4b62db7748d121090b8ef72b752433f19bd259a058391049b6c328b2e2",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "lettering-red-rose",
+      "path": "media/portfolio/lettering-red-rose.jpeg",
+      "originalUploads": [
+        "IMG_1353(1).jpeg"
+      ],
+      "sha256": "40e0c94f3234a4fb89c021ebc36871c3d3605ec178f90842bf113c38e58e1946",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "barbed-wire-rose",
+      "path": "media/portfolio/barbed-wire-rose.jpeg",
+      "originalUploads": [
+        "IMG_1354(1).jpeg"
+      ],
+      "sha256": "53ed7a262fdbd9feefaa7b08727d7569a6a2ac6533a7ad6ac8a367ea22781383",
+      "width": 1440,
+      "height": 1800,
+      "transparent": false,
+      "category": "portfolio",
+      "note": ""
+    },
+    {
+      "id": "jz-golden-hour-instagram",
+      "path": "media/portraits/jz-golden-hour-instagram.jpeg",
+      "originalUploads": [
+        "IMG_1413(1).jpeg",
+        "IMG_1413.jpeg"
+      ],
+      "sha256": "e0b3e769cda9eef2061d249fffc425dcad76dfb03b30a0aa8b50935c137f9b33",
+      "width": 709,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "Screenshot; crop interface for website use; preserve original here."
+    },
+    {
+      "id": "jz-mosaic-back-instagram",
+      "path": "media/portraits/jz-mosaic-back-instagram.jpeg",
+      "originalUploads": [
+        "IMG_1429(1).jpeg",
+        "IMG_1429.jpeg"
+      ],
+      "sha256": "1b7cbf782c491592e9900be47063fa29ce2f720347a1441a0dae248f475c12c3",
+      "width": 709,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "Screenshot; crop interface for website use; preserve original here."
+    },
+    {
+      "id": "jz-mosaic-side-instagram",
+      "path": "media/portraits/jz-mosaic-side-instagram.jpeg",
+      "originalUploads": [
+        "IMG_1431.jpeg"
+      ],
+      "sha256": "fd5161090390d3321502aa0e35109980adb0247594ae9102b886fd50e9466338",
+      "width": 709,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "Screenshot; crop interface for website use; preserve original here."
+    },
+    {
+      "id": "tattoo-instagram-reference",
+      "path": "media/references/tattoo-instagram-reference.jpeg",
+      "originalUploads": [
+        "IMG_1538(1).jpeg"
+      ],
+      "sha256": "b69f9bc9db923a9ba087d451babcb3c3137f77c54dfd69a1cdec2762ad35fb49",
+      "width": 709,
+      "height": 1536,
+      "transparent": false,
+      "category": "references",
+      "note": "Screenshot; crop interface for website use; preserve original here."
+    },
+    {
+      "id": "jz-cauldron-transparent",
+      "path": "media/portraits/jz-cauldron-transparent.png",
+      "originalUploads": [
+        "IMG_1582.png"
+      ],
+      "sha256": "67c628ad682a9a4defc683c955f4101cbec5ed3f6a50c3143caebc20ade65f6b",
+      "width": 722,
+      "height": 1316,
+      "transparent": true,
+      "category": "portraits",
+      "note": ""
+    }
+  ]
+}

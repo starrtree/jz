@@ -1,5 +1,15 @@
 # Media inventory and production plan
 
+## P0 review branch — implemented October 13, 2026
+
+`design/immersive-p0` adds five source-preserving SVG silhouettes under `assets/masks/` for centipede-arm, lilies-arm, stars-foot, branching-neck-shoulder and snake-sword-floral-back. The CSS renders the original JPEG beneath its SVG alpha mask. Four are used in Night Garden; the snake silhouette is prepared for further composition. This is real masking, not a renamed JPEG. Only border-connected near-white exterior pixels are removed; interior whites remain opaque. `scripts/build-masks.py` reproduces the masks and records source SHA-256 hashes in `assets/masks/provenance.json`. Edge/hair inspection in the hosted preview remains required.
+
+The supplied faded snake artwork is an opaque JPEG. No higher-quality transparent snake original was found among the available attachments. `assets/snake-trace.svg` is a manual contour study of that image's visible snake, hilt and flower lines, preserving the cropped composition. It is explicitly described as a source study. The full original back photograph is linked beside it and appears in the photobook. The separate pink flower family in `assets/garden.svg` is decorative artwork, not a portfolio tattoo.
+
+No originals were modified or deleted by this redesign. The earlier explicitly requested portrait-JPEG cleanup predates this branch. The existing genuine-alpha cauldron portrait remains the artist photograph. No face, anatomy or tattoo image was regenerated.
+
+The sections below retain the historical inventory and original production plan; “not yet generated” describes that earlier checkpoint, not the review branch additions above.
+
 52 original uploads → 44 byte-unique images. Eight repeated uploads are represented in `originalUploads` in the manifest; no source upload was deleted. Organized copies preserve the original bytes. Categories separate artist portraits, cutout candidates, tattoo portfolio and a reference screenshot. New IMG_1610–1613 attachments are conversation-status screenshots, not portfolio assets, and are excluded.
 
 Only `jz-cauldron-transparent.png` has an alpha channel in the original 52 uploads. The other files are RGB JPEGs, including many images that visually look like cutouts against white. Renaming a JPEG to PNG cannot create transparency.

@@ -12,8 +12,11 @@ The first implementation includes a layered portrait/botanical hero, filterable 
 - [Selected creative direction, motion specifications and build prompt](docs/creative-direction.md)
 - [PNG / SVG production plan](docs/asset-production.md)
 
-52 supplied media uploads are represented by 44 byte-unique originals. Duplicates are mapped, not discarded from the upload source. Artist portraits and tattoo portfolio are separate. Only one original contains genuine alpha transparency; white-background JPEGs are labelled cutout candidates.
+The original intake contained 52 uploads and 44 byte-unique originals. Portrait JPEGs have since been removed at the user's request; the manifest records removal history. Duplicates are mapped, not discarded from the upload source. Artist portraits and tattoo portfolio are separate. Only one original contains genuine alpha transparency; white-background JPEGs are labelled cutout candidates.
 
 This is an implementation checkpoint, **not a deployed website**. No generated replacement tattoos or portraits are included. The botanical decoration is an original SVG; the real photos remain intact. Browser visual QA and client approval are still required before launch.
 
 Photography and tattoo artwork remain the property of their respective owners; no open-source license is granted for the media. Confirm client and photographer usage/credits before website launch.
+
+
+Transparency correction: genuine alpha cauldron PNG temporarily replaces both homepage portraits. Four white-backed gallery cutouts and the decorative arm are withheld pending transparent originals. See [correction record](docs/transparency-correction.md).

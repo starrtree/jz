@@ -1,280 +1,133 @@
-# JZ INKZ — Asset index
+# Available media
 
-44 unique original images. Click an image for its original file. White backgrounds are not necessarily transparent; this index identifies actual alpha. Original filename aliases are in [the manifest](../media/manifest.json).
+Portrait JPEGs removed at user request. Cutout candidates are source references, not transparent homepage assets.
 
-## portraits
+## stars-foot
 
-### jz-cauldron-close
+![stars-foot](../media/cutout-candidates/stars-foot.jpeg)
 
-[![jz-cauldron-close](../media/portraits/jz-cauldron-close.jpeg)](../media/portraits/jz-cauldron-close.jpeg)
+## roses-cross-butterflies-arm
 
-1136 × 1536 · Opaque image · 1 source upload(s)
+![roses-cross-butterflies-arm](../media/cutout-candidates/roses-cross-butterflies-arm.jpeg)
 
-### jz-candle
+## faded-back-linework
 
-[![jz-candle](../media/portraits/jz-candle.jpeg)](../media/portraits/jz-candle.jpeg)
+![faded-back-linework](../media/cutout-candidates/faded-back-linework.jpeg)
 
-1229 × 1536 · Opaque image · 1 source upload(s)
+## branching-neck-shoulder
 
-### jz-golden-hour
+![branching-neck-shoulder](../media/cutout-candidates/branching-neck-shoulder.jpeg)
 
-[![jz-golden-hour](../media/portraits/jz-golden-hour.jpeg)](../media/portraits/jz-golden-hour.jpeg)
+## ghostface-arm
 
-1536 × 1536 · Opaque image · 2 source upload(s)
+![ghostface-arm](../media/cutout-candidates/ghostface-arm.jpeg)
 
-### jz-mosaic-front
+## lilies-arm
 
-[![jz-mosaic-front](../media/portraits/jz-mosaic-front.jpeg)](../media/portraits/jz-mosaic-front.jpeg)
+![lilies-arm](../media/cutout-candidates/lilies-arm.jpeg)
 
-1230 × 1536 · Opaque image · 2 source upload(s)
+## red-ink-hand
 
-### jz-black-outfit-seated
+![red-ink-hand](../media/cutout-candidates/red-ink-hand.jpeg)
 
-[![jz-black-outfit-seated](../media/portraits/jz-black-outfit-seated.jpeg)](../media/portraits/jz-black-outfit-seated.jpeg)
+## star-owl-floral-arm
 
-1009 × 1536 · Opaque image · 1 source upload(s)
+![star-owl-floral-arm](../media/cutout-candidates/star-owl-floral-arm.jpeg)
 
-### jz-cauldron-wide
+## snake-sword-floral-back
 
-[![jz-cauldron-wide](../media/portraits/jz-cauldron-wide.jpeg)](../media/portraits/jz-cauldron-wide.jpeg)
+![snake-sword-floral-back](../media/cutout-candidates/snake-sword-floral-back.jpeg)
 
-1536 × 1536 · Opaque image · 1 source upload(s)
+## paired-thigh-tattoos
 
-### jz-pink-outfit
+![paired-thigh-tattoos](../media/cutout-candidates/paired-thigh-tattoos.jpeg)
 
-[![jz-pink-outfit](../media/portraits/jz-pink-outfit.jpeg)](../media/portraits/jz-pink-outfit.jpeg)
+## centipede-arm
 
-1229 × 1536 · Opaque image · 1 source upload(s)
+![centipede-arm](../media/cutout-candidates/centipede-arm.jpeg)
 
-### jz-balcony
+## floral-mandala-shoulder
 
-[![jz-balcony](../media/portraits/jz-balcony.jpeg)](../media/portraits/jz-balcony.jpeg)
+![floral-mandala-shoulder](../media/portfolio/floral-mandala-shoulder.jpeg)
 
-1396 × 1536 · Opaque image · 2 source upload(s)
+## crowned-bear
 
-### jz-black-outfit-standing
+![crowned-bear](../media/portfolio/crowned-bear.jpeg)
 
-[![jz-black-outfit-standing](../media/portraits/jz-black-outfit-standing.jpeg)](../media/portraits/jz-black-outfit-standing.jpeg)
+## anatomical-heart-script
 
-1228 × 1536 · Opaque image · 1 source upload(s)
+![anatomical-heart-script](../media/portfolio/anatomical-heart-script.jpeg)
 
-### jz-golden-hour-instagram
+## roses-cross-butterflies
 
-[![jz-golden-hour-instagram](../media/portraits/jz-golden-hour-instagram.jpeg)](../media/portraits/jz-golden-hour-instagram.jpeg)
+![roses-cross-butterflies](../media/portfolio/roses-cross-butterflies.jpeg)
 
-709 × 1536 · Opaque image · 2 source upload(s)
+## centipede
 
-### jz-mosaic-back-instagram
+![centipede](../media/portfolio/centipede.jpeg)
 
-[![jz-mosaic-back-instagram](../media/portraits/jz-mosaic-back-instagram.jpeg)](../media/portraits/jz-mosaic-back-instagram.jpeg)
+## small-red-tattoos
 
-709 × 1536 · Opaque image · 2 source upload(s)
+![small-red-tattoos](../media/portfolio/small-red-tattoos.jpeg)
 
-### jz-mosaic-side-instagram
+## back-bows
 
-[![jz-mosaic-side-instagram](../media/portraits/jz-mosaic-side-instagram.jpeg)](../media/portraits/jz-mosaic-side-instagram.jpeg)
+![back-bows](../media/portfolio/back-bows.jpeg)
 
-709 × 1536 · Opaque image · 1 source upload(s)
+## ornamental-character
 
-### jz-cauldron-transparent
+![ornamental-character](../media/portfolio/ornamental-character.jpeg)
 
-[![jz-cauldron-transparent](../media/portraits/jz-cauldron-transparent.png)](../media/portraits/jz-cauldron-transparent.png)
+## floral-mandala-detail
 
-722 × 1316 · True alpha transparency · 1 source upload(s)
+![floral-mandala-detail](../media/portfolio/floral-mandala-detail.jpeg)
 
+## ornamental-thigh
 
-## cutout-candidates
+![ornamental-thigh](../media/portfolio/ornamental-thigh.jpeg)
 
-### stars-foot
+## floral-hip
 
-[![stars-foot](../media/cutout-candidates/stars-foot.jpeg)](../media/cutout-candidates/stars-foot.jpeg)
+![floral-hip](../media/portfolio/floral-hip.jpeg)
 
-1285 × 1536 · Opaque image · 2 source upload(s)
+## pixel-cat
 
-### roses-cross-butterflies-arm
+![pixel-cat](../media/portfolio/pixel-cat.jpeg)
 
-[![roses-cross-butterflies-arm](../media/cutout-candidates/roses-cross-butterflies-arm.jpeg)](../media/cutout-candidates/roses-cross-butterflies-arm.jpeg)
+## 333-frame
 
-1229 × 1536 · Opaque image · 1 source upload(s)
+![333-frame](../media/portfolio/333-frame.jpeg)
 
-### faded-back-linework
+## fine-line-flower
 
-[![faded-back-linework](../media/cutout-candidates/faded-back-linework.jpeg)](../media/cutout-candidates/faded-back-linework.jpeg)
+![fine-line-flower](../media/portfolio/fine-line-flower.jpeg)
 
-1363 × 1536 · Opaque image · 1 source upload(s)
+## dense-floral-sleeve
 
-### branching-neck-shoulder
+![dense-floral-sleeve](../media/portfolio/dense-floral-sleeve.jpeg)
 
-[![branching-neck-shoulder](../media/cutout-candidates/branching-neck-shoulder.jpeg)](../media/cutout-candidates/branching-neck-shoulder.jpeg)
+## red-black-script
 
-1228 × 1536 · Opaque image · 1 source upload(s)
+![red-black-script](../media/portfolio/red-black-script.jpeg)
 
-### ghostface-arm
+## cross-shoulder
 
-[![ghostface-arm](../media/cutout-candidates/ghostface-arm.jpeg)](../media/cutout-candidates/ghostface-arm.jpeg)
+![cross-shoulder](../media/portfolio/cross-shoulder.jpeg)
 
-1365 × 1536 · Opaque image · 1 source upload(s)
+## lettering-red-rose
 
-### lilies-arm
+![lettering-red-rose](../media/portfolio/lettering-red-rose.jpeg)
 
-[![lilies-arm](../media/cutout-candidates/lilies-arm.jpeg)](../media/cutout-candidates/lilies-arm.jpeg)
+## barbed-wire-rose
 
-1320 × 1536 · Opaque image · 2 source upload(s)
+![barbed-wire-rose](../media/portfolio/barbed-wire-rose.jpeg)
 
-### red-ink-hand
+## tattoo-instagram-reference
 
-[![red-ink-hand](../media/cutout-candidates/red-ink-hand.jpeg)](../media/cutout-candidates/red-ink-hand.jpeg)
+![tattoo-instagram-reference](../media/references/tattoo-instagram-reference.jpeg)
 
-1152 × 1536 · Opaque image · 1 source upload(s)
+## jz-cauldron-transparent
 
-### star-owl-floral-arm
-
-[![star-owl-floral-arm](../media/cutout-candidates/star-owl-floral-arm.jpeg)](../media/cutout-candidates/star-owl-floral-arm.jpeg)
-
-1189 × 1536 · Opaque image · 1 source upload(s)
-
-### snake-sword-floral-back
-
-[![snake-sword-floral-back](../media/cutout-candidates/snake-sword-floral-back.jpeg)](../media/cutout-candidates/snake-sword-floral-back.jpeg)
-
-1518 × 1536 · Opaque image · 1 source upload(s)
-
-### paired-thigh-tattoos
-
-[![paired-thigh-tattoos](../media/cutout-candidates/paired-thigh-tattoos.jpeg)](../media/cutout-candidates/paired-thigh-tattoos.jpeg)
-
-1281 × 1536 · Opaque image · 1 source upload(s)
-
-### centipede-arm
-
-[![centipede-arm](../media/cutout-candidates/centipede-arm.jpeg)](../media/cutout-candidates/centipede-arm.jpeg)
-
-1536 × 1536 · Opaque image · 1 source upload(s)
-
-
-## portfolio
-
-### floral-mandala-shoulder
-
-[![floral-mandala-shoulder](../media/portfolio/floral-mandala-shoulder.jpeg)](../media/portfolio/floral-mandala-shoulder.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### crowned-bear
-
-[![crowned-bear](../media/portfolio/crowned-bear.jpeg)](../media/portfolio/crowned-bear.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### anatomical-heart-script
-
-[![anatomical-heart-script](../media/portfolio/anatomical-heart-script.jpeg)](../media/portfolio/anatomical-heart-script.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### roses-cross-butterflies
-
-[![roses-cross-butterflies](../media/portfolio/roses-cross-butterflies.jpeg)](../media/portfolio/roses-cross-butterflies.jpeg)
-
-1440 × 1800 · Opaque image · 2 source upload(s)
-
-### centipede
-
-[![centipede](../media/portfolio/centipede.jpeg)](../media/portfolio/centipede.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### small-red-tattoos
-
-[![small-red-tattoos](../media/portfolio/small-red-tattoos.jpeg)](../media/portfolio/small-red-tattoos.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### back-bows
-
-[![back-bows](../media/portfolio/back-bows.jpeg)](../media/portfolio/back-bows.jpeg)
-
-1125 × 1406 · Opaque image · 1 source upload(s)
-
-### ornamental-character
-
-[![ornamental-character](../media/portfolio/ornamental-character.jpeg)](../media/portfolio/ornamental-character.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### floral-mandala-detail
-
-[![floral-mandala-detail](../media/portfolio/floral-mandala-detail.jpeg)](../media/portfolio/floral-mandala-detail.jpeg)
-
-1440 × 1799 · Opaque image · 1 source upload(s)
-
-### ornamental-thigh
-
-[![ornamental-thigh](../media/portfolio/ornamental-thigh.jpeg)](../media/portfolio/ornamental-thigh.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### floral-hip
-
-[![floral-hip](../media/portfolio/floral-hip.jpeg)](../media/portfolio/floral-hip.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### pixel-cat
-
-[![pixel-cat](../media/portfolio/pixel-cat.jpeg)](../media/portfolio/pixel-cat.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### 333-frame
-
-[![333-frame](../media/portfolio/333-frame.jpeg)](../media/portfolio/333-frame.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### fine-line-flower
-
-[![fine-line-flower](../media/portfolio/fine-line-flower.jpeg)](../media/portfolio/fine-line-flower.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### dense-floral-sleeve
-
-[![dense-floral-sleeve](../media/portfolio/dense-floral-sleeve.jpeg)](../media/portfolio/dense-floral-sleeve.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### red-black-script
-
-[![red-black-script](../media/portfolio/red-black-script.jpeg)](../media/portfolio/red-black-script.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### cross-shoulder
-
-[![cross-shoulder](../media/portfolio/cross-shoulder.jpeg)](../media/portfolio/cross-shoulder.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### lettering-red-rose
-
-[![lettering-red-rose](../media/portfolio/lettering-red-rose.jpeg)](../media/portfolio/lettering-red-rose.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-### barbed-wire-rose
-
-[![barbed-wire-rose](../media/portfolio/barbed-wire-rose.jpeg)](../media/portfolio/barbed-wire-rose.jpeg)
-
-1440 × 1800 · Opaque image · 1 source upload(s)
-
-
-## references
-
-### tattoo-instagram-reference
-
-[![tattoo-instagram-reference](../media/references/tattoo-instagram-reference.jpeg)](../media/references/tattoo-instagram-reference.jpeg)
-
-709 × 1536 · Opaque image · 1 source upload(s)
+![jz-cauldron-transparent](../media/portraits/jz-cauldron-transparent.png)
 
 

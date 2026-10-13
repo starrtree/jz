@@ -1,20 +1,7 @@
 {
   "uploadedCount": 52,
-  "uniqueCount": 44,
+  "uniqueCount": 32,
   "assets": [
-    {
-      "id": "jz-cauldron-close",
-      "path": "media/portraits/jz-cauldron-close.jpeg",
-      "originalUploads": [
-        "01A30285-6BA9-47DD-80B1-9123C3219462(2).jpeg"
-      ],
-      "sha256": "4d144a19131cd114de061b23fdbfbe1b7b7bdadcd5bc74db069546922197632c",
-      "width": 1136,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": ""
-    },
     {
       "id": "stars-foot",
       "path": "media/cutout-candidates/stars-foot.jpeg",
@@ -56,47 +43,6 @@
       "note": "Preserve intentional fade; do not sharpen or reconstruct linework."
     },
     {
-      "id": "jz-candle",
-      "path": "media/portraits/jz-candle.jpeg",
-      "originalUploads": [
-        "390ECC3C-E093-457B-8F75-9181FC434D3A(1).jpeg"
-      ],
-      "sha256": "e92898b5abc34b2f7d09e3f264ed8247517d57cb29f694c7c597de6c176c60b4",
-      "width": 1229,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": ""
-    },
-    {
-      "id": "jz-golden-hour",
-      "path": "media/portraits/jz-golden-hour.jpeg",
-      "originalUploads": [
-        "49E819DD-8B6A-4E62-AFFD-63D1E37400D2(1).jpeg",
-        "8AFDD68D-7428-4D98-ACDE-86F31F02E22F(1).jpeg"
-      ],
-      "sha256": "57bffcda44adeac9d3e1f4b0aec1fe6566d68f9a502897197d2d709aab68ec2f",
-      "width": 1536,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": ""
-    },
-    {
-      "id": "jz-mosaic-front",
-      "path": "media/portraits/jz-mosaic-front.jpeg",
-      "originalUploads": [
-        "4ECCAE41-76BD-434B-A07B-6D4E6BBAD5E9(1).jpeg",
-        "CC7C8CCE-B234-4E4C-954E-3094D428796A(1).jpeg"
-      ],
-      "sha256": "04aa30a4f448ee1dd4ad3cec6df032ae4d31d33397e921859535f6f2cb04f74b",
-      "width": 1230,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": ""
-    },
-    {
       "id": "branching-neck-shoulder",
       "path": "media/cutout-candidates/branching-neck-shoulder.jpeg",
       "originalUploads": [
@@ -107,45 +53,6 @@
       "height": 1536,
       "transparent": false,
       "category": "cutout-candidates",
-      "note": ""
-    },
-    {
-      "id": "jz-black-outfit-seated",
-      "path": "media/portraits/jz-black-outfit-seated.jpeg",
-      "originalUploads": [
-        "56C8323F-FD0D-42A1-9948-1CF76958148E(1).jpeg"
-      ],
-      "sha256": "3e735f86f75ad2abd7f2c0c2ca72c21ca274664ffbffcf7c1874b5cf8020dce0",
-      "width": 1009,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": ""
-    },
-    {
-      "id": "jz-cauldron-wide",
-      "path": "media/portraits/jz-cauldron-wide.jpeg",
-      "originalUploads": [
-        "60FE64D7-BFF8-4A31-B0F1-D7CA9CDA88BE(1).jpeg"
-      ],
-      "sha256": "ca93ea25ad445783069c8efef064ca6f433b91c3101ba1d6fa13e198fed845a2",
-      "width": 1536,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": ""
-    },
-    {
-      "id": "jz-pink-outfit",
-      "path": "media/portraits/jz-pink-outfit.jpeg",
-      "originalUploads": [
-        "77C12084-FE2C-4F7B-ACD0-F1F3A873D928(1).jpeg"
-      ],
-      "sha256": "ef732463552a991f5b850911b0075a0b4a1d334324553e8b9543428a0fa7379b",
-      "width": 1229,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
       "note": ""
     },
     {
@@ -186,20 +93,6 @@
       "height": 1536,
       "transparent": false,
       "category": "cutout-candidates",
-      "note": ""
-    },
-    {
-      "id": "jz-balcony",
-      "path": "media/portraits/jz-balcony.jpeg",
-      "originalUploads": [
-        "9CB9FC41-DD62-4E1A-8EC6-4572AB362EA0(1).jpeg",
-        "FDDD0350-88FF-4EC8-9E2A-D66B73045A0D(1).jpeg"
-      ],
-      "sha256": "a8472afaad2a7a8fc443ee6c6207e9f1e4fb146ea55c176ec1b237e60419652f",
-      "width": 1396,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
       "note": ""
     },
     {
@@ -252,19 +145,6 @@
       "height": 1536,
       "transparent": false,
       "category": "cutout-candidates",
-      "note": ""
-    },
-    {
-      "id": "jz-black-outfit-standing",
-      "path": "media/portraits/jz-black-outfit-standing.jpeg",
-      "originalUploads": [
-        "F7B4022E-836A-4E1E-A5FB-07CDB4184492(1).jpeg"
-      ],
-      "sha256": "1ab0b3a4788914db29416dde7ac1736fe09df5fe86f9dae791c08969b21f9609",
-      "width": 1228,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
       "note": ""
     },
     {
@@ -516,47 +396,6 @@
       "note": ""
     },
     {
-      "id": "jz-golden-hour-instagram",
-      "path": "media/portraits/jz-golden-hour-instagram.jpeg",
-      "originalUploads": [
-        "IMG_1413(1).jpeg",
-        "IMG_1413.jpeg"
-      ],
-      "sha256": "e0b3e769cda9eef2061d249fffc425dcad76dfb03b30a0aa8b50935c137f9b33",
-      "width": 709,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": "Screenshot; crop interface for website use; preserve original here."
-    },
-    {
-      "id": "jz-mosaic-back-instagram",
-      "path": "media/portraits/jz-mosaic-back-instagram.jpeg",
-      "originalUploads": [
-        "IMG_1429(1).jpeg",
-        "IMG_1429.jpeg"
-      ],
-      "sha256": "1b7cbf782c491592e9900be47063fa29ce2f720347a1441a0dae248f475c12c3",
-      "width": 709,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": "Screenshot; crop interface for website use; preserve original here."
-    },
-    {
-      "id": "jz-mosaic-side-instagram",
-      "path": "media/portraits/jz-mosaic-side-instagram.jpeg",
-      "originalUploads": [
-        "IMG_1431.jpeg"
-      ],
-      "sha256": "fd5161090390d3321502aa0e35109980adb0247594ae9102b886fd50e9466338",
-      "width": 709,
-      "height": 1536,
-      "transparent": false,
-      "category": "portraits",
-      "note": "Screenshot; crop interface for website use; preserve original here."
-    },
-    {
       "id": "tattoo-instagram-reference",
       "path": "media/references/tattoo-instagram-reference.jpeg",
       "originalUploads": [
@@ -581,6 +420,181 @@
       "transparent": true,
       "category": "portraits",
       "note": ""
+    }
+  ],
+  "removedAssets": [
+    {
+      "id": "jz-cauldron-close",
+      "path": "media/portraits/jz-cauldron-close.jpeg",
+      "originalUploads": [
+        "01A30285-6BA9-47DD-80B1-9123C3219462(2).jpeg"
+      ],
+      "sha256": "4d144a19131cd114de061b23fdbfbe1b7b7bdadcd5bc74db069546922197632c",
+      "width": 1136,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-candle",
+      "path": "media/portraits/jz-candle.jpeg",
+      "originalUploads": [
+        "390ECC3C-E093-457B-8F75-9181FC434D3A(1).jpeg"
+      ],
+      "sha256": "e92898b5abc34b2f7d09e3f264ed8247517d57cb29f694c7c597de6c176c60b4",
+      "width": 1229,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-golden-hour",
+      "path": "media/portraits/jz-golden-hour.jpeg",
+      "originalUploads": [
+        "49E819DD-8B6A-4E62-AFFD-63D1E37400D2(1).jpeg",
+        "8AFDD68D-7428-4D98-ACDE-86F31F02E22F(1).jpeg"
+      ],
+      "sha256": "57bffcda44adeac9d3e1f4b0aec1fe6566d68f9a502897197d2d709aab68ec2f",
+      "width": 1536,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-mosaic-front",
+      "path": "media/portraits/jz-mosaic-front.jpeg",
+      "originalUploads": [
+        "4ECCAE41-76BD-434B-A07B-6D4E6BBAD5E9(1).jpeg",
+        "CC7C8CCE-B234-4E4C-954E-3094D428796A(1).jpeg"
+      ],
+      "sha256": "04aa30a4f448ee1dd4ad3cec6df032ae4d31d33397e921859535f6f2cb04f74b",
+      "width": 1230,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-black-outfit-seated",
+      "path": "media/portraits/jz-black-outfit-seated.jpeg",
+      "originalUploads": [
+        "56C8323F-FD0D-42A1-9948-1CF76958148E(1).jpeg"
+      ],
+      "sha256": "3e735f86f75ad2abd7f2c0c2ca72c21ca274664ffbffcf7c1874b5cf8020dce0",
+      "width": 1009,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-cauldron-wide",
+      "path": "media/portraits/jz-cauldron-wide.jpeg",
+      "originalUploads": [
+        "60FE64D7-BFF8-4A31-B0F1-D7CA9CDA88BE(1).jpeg"
+      ],
+      "sha256": "ca93ea25ad445783069c8efef064ca6f433b91c3101ba1d6fa13e198fed845a2",
+      "width": 1536,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-pink-outfit",
+      "path": "media/portraits/jz-pink-outfit.jpeg",
+      "originalUploads": [
+        "77C12084-FE2C-4F7B-ACD0-F1F3A873D928(1).jpeg"
+      ],
+      "sha256": "ef732463552a991f5b850911b0075a0b4a1d334324553e8b9543428a0fa7379b",
+      "width": 1229,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-balcony",
+      "path": "media/portraits/jz-balcony.jpeg",
+      "originalUploads": [
+        "9CB9FC41-DD62-4E1A-8EC6-4572AB362EA0(1).jpeg",
+        "FDDD0350-88FF-4EC8-9E2A-D66B73045A0D(1).jpeg"
+      ],
+      "sha256": "a8472afaad2a7a8fc443ee6c6207e9f1e4fb146ea55c176ec1b237e60419652f",
+      "width": 1396,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-black-outfit-standing",
+      "path": "media/portraits/jz-black-outfit-standing.jpeg",
+      "originalUploads": [
+        "F7B4022E-836A-4E1E-A5FB-07CDB4184492(1).jpeg"
+      ],
+      "sha256": "1ab0b3a4788914db29416dde7ac1736fe09df5fe86f9dae791c08969b21f9609",
+      "width": 1228,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-golden-hour-instagram",
+      "path": "media/portraits/jz-golden-hour-instagram.jpeg",
+      "originalUploads": [
+        "IMG_1413(1).jpeg",
+        "IMG_1413.jpeg"
+      ],
+      "sha256": "e0b3e769cda9eef2061d249fffc425dcad76dfb03b30a0aa8b50935c137f9b33",
+      "width": 709,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "Screenshot; crop interface for website use; preserve original here.",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-mosaic-back-instagram",
+      "path": "media/portraits/jz-mosaic-back-instagram.jpeg",
+      "originalUploads": [
+        "IMG_1429(1).jpeg",
+        "IMG_1429.jpeg"
+      ],
+      "sha256": "1b7cbf782c491592e9900be47063fa29ce2f720347a1441a0dae248f475c12c3",
+      "width": 709,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "Screenshot; crop interface for website use; preserve original here.",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
+    },
+    {
+      "id": "jz-mosaic-side-instagram",
+      "path": "media/portraits/jz-mosaic-side-instagram.jpeg",
+      "originalUploads": [
+        "IMG_1431.jpeg"
+      ],
+      "sha256": "fd5161090390d3321502aa0e35109980adb0247594ae9102b886fd50e9466338",
+      "width": 709,
+      "height": 1536,
+      "transparent": false,
+      "category": "portraits",
+      "note": "Screenshot; crop interface for website use; preserve original here.",
+      "removalReason": "Portrait JPEG removed at user request; transparent replacement unavailable."
     }
   ]
 }

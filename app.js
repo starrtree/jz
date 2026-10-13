@@ -3,17 +3,13 @@
 // Original photographs are never distorted. This is a curated view of the full archive.
 const works = [
   {id:'dense-floral-sleeve',title:'A garden, forever',category:'floral',file:'media/portfolio/dense-floral-sleeve.jpeg',alt:'Dense black-and-grey floral sleeve with roses and leaves'},
-  {id:'ghostface-arm',title:'Sweet little nightmare',category:'dark',file:'media/cutout-candidates/ghostface-arm.jpeg',alt:'Red and black Ghostface tattoo with a dagger, webs and hearts'},
   {id:'barbed-wire-rose',title:'Soft, with thorns',category:'floral',file:'media/portfolio/barbed-wire-rose.jpeg',alt:'Fine-line red rose with black barbed-wire details'},
   {id:'centipede',title:'Beautifully unsettling',category:'dark',file:'media/portfolio/centipede.jpeg',alt:'Long black centipede tattoo on an arm'},
   {id:'fine-line-flower',title:'The little things',category:'detail',file:'media/portfolio/fine-line-flower.jpeg',alt:'Small fine-line flower tattoo'},
   {id:'floral-mandala-shoulder',title:'Petal by petal',category:'floral',file:'media/portfolio/floral-mandala-shoulder.jpeg',alt:'Floral mandala tattoo wrapping a shoulder'},
-  {id:'stars-foot',title:'Written in the stars',category:'detail',file:'media/cutout-candidates/stars-foot.jpeg',alt:'Stars, fine swirls and animal-print details tattooed across a foot'},
   {id:'anatomical-heart-script',title:'Wear your heart',category:'dark',file:'media/portfolio/anatomical-heart-script.jpeg',alt:'Anatomical heart tattoo with lettering'},
   {id:'roses-cross-butterflies',title:'Something to believe in',category:'floral',file:'media/portfolio/roses-cross-butterflies.jpeg',alt:'Roses, butterflies and a cross tattoo along an arm'},
   {id:'pixel-cat',title:'A little character',category:'detail',file:'media/portfolio/pixel-cat.jpeg',alt:'Small pixel-style cat tattoo'},
-  {id:'lilies-arm',title:'Lilies in ink',category:'floral',file:'media/cutout-candidates/lilies-arm.jpeg',alt:'Large lilies and leaves tattooed along an upper arm'},
-  {id:'branching-neck-shoulder',title:'Follow the lines',category:'detail',file:'media/cutout-candidates/branching-neck-shoulder.jpeg',alt:'Fine branching tattoo extending from behind the ear across a shoulder'}
 ];
 const sessionOptions = {
   consult:{name:'Consultation',note:'a good place to begin',description:'Talk through your idea and the design direction with JZ.',price:'Free',duration:'60 minutes'},

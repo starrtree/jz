@@ -9,7 +9,7 @@ const works = [
   {id:'floral-mandala-shoulder',title:'Petal by petal',category:'floral',file:'media/portfolio/floral-mandala-shoulder.jpeg',alt:'Floral mandala tattoo wrapping a shoulder'},
   {id:'anatomical-heart-script',title:'Wear your heart',category:'dark',file:'media/portfolio/anatomical-heart-script.jpeg',alt:'Anatomical heart tattoo with lettering'},
   {id:'roses-cross-butterflies',title:'Something to believe in',category:'floral',file:'media/portfolio/roses-cross-butterflies.jpeg',alt:'Roses, butterflies and a cross tattoo along an arm'},
-  {id:'pixel-cat',title:'A little character',category:'detail',file:'media/portfolio/pixel-cat.jpeg',alt:'Small pixel-style cat tattoo'},
+  {id:'pixel-cat',title:'Electric bones',category:'dark',file:'media/portfolio/pixel-cat.jpeg',alt:'Black skeleton tattoo surrounded by a jagged dark outline'},
 ];
 const sessionOptions = {
   consult:{name:'Consultation',note:'a good place to begin',description:'Talk through your idea and the design direction with JZ.',price:'Free',duration:'60 minutes'},
@@ -86,26 +86,74 @@ document.querySelectorAll('[data-session]').forEach(button=>button.addEventListe
   const price=document.querySelector('#session-price');const duration=document.createElement('span');duration.textContent=` · ${session.duration}`;price.replaceChildren(session.price,duration);
 }));
 
-const portrait=document.querySelector('.hero-portrait');
-const hero=document.querySelector('.hero');
-const drifters=[...document.querySelectorAll('[data-drift]')];
+// One native-scroll controller owns the narrative. No wheel/touch interception.
+const drawing=document.querySelector('.living-drawing');
+const night=document.querySelector('.night-garden');
+const book=document.querySelector('.photobook');
+const sourcePaths=[...document.querySelectorAll('.source-lines path')];
+const cutouts=[...document.querySelectorAll('.body-cutout')];
+const bookPhotos=[...document.querySelectorAll('.book-photo')];
+const desktop=window.matchMedia('(min-width: 901px)');
+const clamp=value=>Math.max(0,Math.min(1,value));
+const progress=(element,start=.85,end=.15)=>{
+  const rect=element.getBoundingClientRect();
+  return clamp((innerHeight*start-rect.top)/(rect.height+innerHeight*(start-end)));
+};
+sourcePaths.forEach(path=>path.setAttribute('pathLength','1'));
+document.querySelectorAll('.signature-strokes path').forEach((path,i)=>path.style.setProperty('--stroke-index',i));
 function updateScroll(){
-  frame=0;if(!motionAllowed()||document.hidden)return;
-  const heroRect=hero.getBoundingClientRect();
-  if(heroRect.bottom>0&&heroRect.top<innerHeight){portrait.style.translate=`0 ${Math.min(20,Math.max(0,-heroRect.top*.035))}px`;}
-  for(const element of drifters){const rect=element.parentElement.getBoundingClientRect();if(rect.bottom>0&&rect.top<innerHeight){const progress=Math.max(-1,Math.min(1,(innerHeight/2-rect.top)/innerHeight));element.style.translate=`0 ${progress*Number(element.dataset.drift)}px`;}}
+  frame=0;
+  const active=motionAllowed();
+  document.body.classList.toggle('motion-enabled',active);
+  const draw=active?clamp(progress(drawing,1,0)*2.0):1;
+  sourcePaths.forEach((path,i)=>{
+    const local=clamp(draw*1.65-i/sourcePaths.length*.65);
+    path.style.strokeDashoffset=String(1-local);
+  });
+  drawing.style.setProperty('--bloom',String(active?clamp((draw-.25)/.65)*.6:.6));
+  const nightProgress=progress(night,1,0);
+  cutouts.forEach((item,i)=>item.style.translate=active?
+    ((i%2?-1:1)*(1-nightProgress)*45)+'px '+((nightProgress-.45)*(i%2?80:-70))+'px':'none');
+  const moon=night.querySelector('.moon');
+  moon.style.opacity=active?String(clamp(nightProgress*5)):1;
+  moon.style.translate=active?'0 '+((1-nightProgress)*35)+'px':'none';
+  night.querySelector('.constellation').style.opacity=active?String(clamp(nightProgress*4)):1;
+  const rect=book.getBoundingClientRect();
+  const p=clamp((74-rect.top)/Math.max(1,rect.height-innerHeight+74));
+  book.style.setProperty('--book-progress',(p*100)+'%');
+  bookPhotos.forEach((photo,i)=>{
+    const enhanced=active&&desktop.matches;
+    const turn=clamp(p*2.6-i);
+    photo.style.zIndex=String(3-i);
+    photo.style.transform=enhanced?
+      'translate3d('+(-turn*75)+'%, '+(-turn*28)+'px, 0) rotate('+([-5,5,-2][i]-turn*14)+'deg) rotateY('+(-turn*24)+'deg)':
+      'rotate('+([-3,3,-2][i])+'deg)';
+    photo.style.opacity=enhanced?String(1-clamp((turn-.65)/.35)):1;
+    // Only the top page can receive focus when layered. Full collection follows.
+    const covered=enhanced&&(p*2.6<i||turn>.95);
+    photo.inert=covered;
+    if(covered)photo.setAttribute('aria-hidden','true');else photo.removeAttribute('aria-hidden');
+  });
 }
-function requestScroll(){if(!frame&&motionAllowed())frame=requestAnimationFrame(updateScroll);}
+function requestScroll(){if(!frame&&!document.hidden)frame=requestAnimationFrame(updateScroll);}
 function syncMotion(){
-  document.body.classList.toggle('motion-paused',manuallyPaused||reducedMotion.matches);
-  const button=document.querySelector('#motion-toggle');button.setAttribute('aria-pressed',String(manuallyPaused||reducedMotion.matches));
+  document.body.classList.toggle('motion-paused',!motionAllowed());
+  document.body.classList.toggle('motion-enabled',motionAllowed());
+  const button=document.querySelector('#motion-toggle');
+  button.setAttribute('aria-pressed',String(!motionAllowed()));
   button.textContent=reducedMotion.matches?'Reduced motion: system setting':manuallyPaused?'Resume decorative motion':'Pause decorative motion';
   button.disabled=reducedMotion.matches;
-  if(!motionAllowed()){cancelAnimationFrame(frame);frame=0;portrait.style.removeProperty('translate');drifters.forEach(item=>item.style.removeProperty('translate'));}
-  else requestScroll();
+  document.querySelector('#replay-ink').disabled=!motionAllowed();
+  requestScroll();
 }
+document.querySelector('#replay-ink').addEventListener('click',()=>{
+  const signature=document.querySelector('.signature');
+  signature.getAnimations({subtree:true}).forEach(animation=>{animation.cancel();animation.play();});
+});
 document.querySelector('#motion-toggle').addEventListener('click',()=>{manuallyPaused=!manuallyPaused;syncMotion();});
 reducedMotion.addEventListener('change',syncMotion);
-window.addEventListener('scroll',requestScroll,{passive:true});window.addEventListener('resize',requestScroll,{passive:true});
+desktop.addEventListener('change',requestScroll);
+window.addEventListener('scroll',requestScroll,{passive:true});
+window.addEventListener('resize',requestScroll,{passive:true});
 document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;}else requestScroll();});
 syncMotion();document.querySelector('#year').textContent=new Date().getFullYear();
